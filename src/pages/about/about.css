@@ -1,0 +1,142 @@
+.about_main  {
+
+    background: url(../../assets/bg.svg); 
+    margin-top: 2rem;
+    
+}
+.about_title {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 4rem;
+}
+.about_title-content{
+    background: #FF4800;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.about_title-content > h2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.about_content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.about_content h3 {
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+padding-bottom: .5rem;
+
+/* Black/100 */
+
+color: #141516;
+
+}
+.about_content p {
+    font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 32px;
+/* or 229% */
+
+
+/* Black/100 */
+
+color: #141516;
+
+}
+.content-detail1 {
+    background: #F6DFD6;
+border-radius: 4px;
+padding: 1rem;
+}
+.content-detail1 h3 {
+    color: #FF4800;
+    font-weight: 700;
+}
+.content-detail2 {
+    background: #F6EAE6;
+border-radius: 4px;
+padding: 1rem;
+}
+.content-detail2 h3 {
+    color: #FF4800;
+    font-weight: 700;
+}
+.content-detail3 {
+    background: #F5EFED;
+border-radius: 4px;
+padding: 1rem;
+}
+.content-detail3 h3 {
+    color: #FF4800;
+    font-weight: 700;
+}
+.about_reach {
+    margin: 4rem 0;
+    background: #FF4800;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+.reach-text {
+    font-weight: 700;
+    font-size: 30px;
+}
+.reach-img  {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+@media screen and (max-width:1024px) {
+    .about_content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .about_title {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about_title-content{
+        padding: 2.5rem;
+        
+    }
+    .about_reach {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    .reach-text {
+        font-size: 20px;
+    }
+  }
+  /* ======== MEDIA QUERY SMALL ======= */
+  @media screen and (max-width:600px) {
+    .about_content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .about_title {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about_title-content{
+        padding: 2.5rem;
+        
+    }
+  }

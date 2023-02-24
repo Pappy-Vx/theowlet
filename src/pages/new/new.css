@@ -1,0 +1,146 @@
+ .new-bg{
+    background: url(../../assets/new-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+} 
+.line {
+    width: 50vh;
+    height: 5px;
+    background: #FF4800;
+    margin-bottom: 1rem;
+}
+.new-waitlist {
+    background: black;
+    padding: 4rem 2rem;
+color: #fff;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+.new-waitlist > h3 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.new-input {
+    padding: 1.19rem;
+    width: 50vh;
+    border: 1px solid transparent;
+
+}
+
+.new-submit {
+    background: #FF4800;
+    padding: .98rem;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    right: 1px;
+    top: 0.22rem;
+    border: 1px solid transparent;
+}
+
+.new-tele {
+    font-size: 20px;
+    transition: ease-in-out .3s;
+} 
+.new-tele:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:1024px) {
+    .new-bg{
+        background: url(../../assets/new-bg.jpg);
+        width: 100%;
+        height: 35.9vh;
+        /* height: 100vh; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2.5rem 1rem;
+    } 
+
+    .line {
+        width: 15vh;
+        height: 5px;
+        background: #FF4800;
+        margin-bottom: 1rem;
+    }
+    .new-waitlist {
+        background: black;
+        padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+  
+    .new-input {
+        padding: 1.2rem;
+        width: 35vh;
+    }
+ 
+}
+@media screen and (max-width:600px) {
+    .new-bg{
+        background: url(../../assets/new-bg-mobile.jpg);
+        width: 100%;
+        height: 90vh;
+        /* height: 100vh; */
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2.5rem 1rem;
+    } 
+    .new-bg  h3 {
+        font-size: 15px;
+    }
+
+    .line {
+        width: 10vh;
+        height: 5px;
+        background: #FF4800;
+        margin-top: .8rem;
+        margin-bottom: 1rem;
+    }
+    .new-waitlist {
+        padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+    .new-input {
+        padding: 1.2rem;
+        width: 35vh;
+        border-radius: 0;
+    }
+    .new-waitlist > h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .new-submit {
+        padding: .98rem;
+        font-size: 15px;
+        position: relative;
+        right: 1px;
+        top: 0rem;
+        border: 1px solid transparent;
+    }
+
+} 
