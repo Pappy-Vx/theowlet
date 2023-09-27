@@ -28,7 +28,7 @@ color: #FF4800;
 
   }
   .head-content1 {
-    background: url(../../assets/africa.jpg);
+    background: url(../../assets/africa.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -54,7 +54,7 @@ color: #FF4800;
     color: #ff0000;
   }
   .head-content2{
-    background: url(../../assets/media.jpg);
+    background: url(../../assets/media.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -77,7 +77,7 @@ color: #FF4800;
 
 
   .head-content3 {
-    background: url(../../assets/app.jpg);
+    background: url(../../assets/app.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -115,7 +115,7 @@ color: #FF4800;
 .home_product > h5 {
     font-style: normal;
 font-weight: 300;
-font-size: 16px;
+font-size: 18px;
 line-height: 20px;
 /* identical to box height, or 125% */
 
@@ -128,44 +128,36 @@ color: #4C4D4D;
 }
 .home_product-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
     margin: 3rem 0;
 }
 .home_product-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
-    gap: 1rem;
-    text-align: left;
-    box-sizing: border-box;
-
-padding: 1.5rem;
-
-background: #FFFFFF;
-/* Gray/3 */
-
-border: 1px solid #DCDCDC;
-border-radius: 8px;
+     align-items: center; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid  rgba(255, 72, 0, .1);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    transition: box-shadow 0.3s ease;
+}
+.home_product-content:hover {
+    box-shadow: 0 2px 8px  rgba(255, 72, 0, .6); 
+    border: 1px solid transparent;
 }
 .home_product-content > img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
 
 }
 .home_product-content > p {
-    font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-
-/* Black/100 */
-
-color: #141516;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 
 }
 .home_product-content > small {
@@ -183,34 +175,17 @@ padding-bottom: 3rem;
 
 }
 .home_product-content > a {
-    box-sizing: border-box;
-
-/* Auto layout */
-cursor: pointer;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-gap: 10px;
-
-
-
-background: rgba(248, 202, 184, 0.14);
-/* Orange/100 */
-
-border: 1px solid #FF4800;
-border-radius: 24px;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-/* identical to box height, or 129% */
-
-
-/* Orange/100 */
-transition: var(--transition);
-color: #FF4800;
-width: 70%;
+  display: inline-block;
+  background-color: #fff;
+  color: #ff4800;
+  padding: 8px 16px;
+  font-size: 12px;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 1px solid #FF4800;
+  width: 60%;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 .home_product-content > a:hover {
@@ -219,7 +194,7 @@ width: 70%;
     color: #FFFFFF;
 }
 .banner1{
-  background: url(../../assets/banner1.jpg);
+  background: url(../../assets/banner1.webp);
   height: 30vh;
   width: 100%;
   margin: auto;
@@ -241,7 +216,7 @@ width: 70%;
 /* ======== MEDIA QUERY MEDIUM ======= */
 @media screen and (max-width:1024px) {
   .head-content1 {
-    background: url(../../assets/africamobile.jpg);
+    background: url(../../assets/africamobile.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -268,7 +243,7 @@ width: 70%;
     color: #ff0000;
   }
   .head-content2{
-    background: url(../../assets/onlinemobile.jpg);
+    background: url(../../assets/onlinemobile.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -291,7 +266,7 @@ width: 70%;
 
 
   .head-content3 {
-    background: url(../../assets/appmobile.jpg);
+    background: url(../../assets/appmobile.webp);
     height: 100vh;
     width: 100%;
     margin: auto;
@@ -351,7 +326,7 @@ width: 70%;
   @media screen and (max-width:600px) {
     
     .head-content1 {
-      background: url(../../assets/africamobile.jpg);
+      background: url(../../assets/africamobile.webp);
       height: 100vh;
       width: 100%;
       margin: auto;
@@ -377,7 +352,7 @@ width: 70%;
       color: #ff0000;
     }
     .head-content2{
-      background: url(../../assets/onlinemobile.jpg);
+      background: url(../../assets/onlinemobile.webp);
       height: 100vh;
       width: 100%;
       margin: auto;
@@ -400,7 +375,7 @@ width: 70%;
   
   
     .head-content3 {
-      background: url(../../assets/appmobile.jpg);
+      background: url(../../assets/appmobile.webp);
       height: 100vh;
       width: 100%;
       margin: auto;

@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../../assets/about.jpg'
+import about from '../../assets/about.webp'
 import influencer from '../../assets/influencers.png'
 import smallbusiness from '../../assets/SMALL-BUSINESSES.png'
 import business from '../../assets/big-business.png'

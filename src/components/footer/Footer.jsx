@@ -37,10 +37,11 @@ const Footer = () => {
       <div className="footer_products">
         <h3>Products</h3>
         <ul>
-          <li><a href="https://theowlette.com/" target="_blank" rel="noopener noreferrer">Owlet App</a></li>
+          <li><a href="https://strix.com.ng" target="_blank" rel="noopener noreferrer">Strix</a></li>
           <li><a href="http://theowletonline.com/" target="_blank" rel="noopener noreferrer">Owlet Online</a></li>
           <li><a href="http://theowletonline.com/p2p" target="_blank" rel="noopener noreferrer">Owlet Online P2P</a></li>
-          
+          {/* <li><a href="http://theowletonline.com/p2p" target="_blank" rel="noopener noreferrer">Checkmate</a></li> */}
+          <li><a href="http://theowletonline.com/p2p" target="_blank" rel="noopener noreferrer">Owletpay</a></li>
         </ul>
       </div>
       <div className="footer_contact">
